@@ -78,3 +78,32 @@ h6 {
 #topbar .social-links a:first-child {
   border-left: 0;
 }
+
+/* Header section */
+
+#header {
+  background-color: #fff;
+  transform: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  top: 40px;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+#header .header-scrolled {
+  top: 0;
+}
+
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "Poppin", sans-serif;
+}
+
+#header img {
+  max-height: 200px;
+}
