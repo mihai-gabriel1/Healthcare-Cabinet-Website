@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .appointment-btn {
+    margin: 0 15px 0 0 !important;
+    padding: 16px 18px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
