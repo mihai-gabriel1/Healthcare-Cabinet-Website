@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 body {
-  font-family: "Open Sans", sans-serif;
   color: #444444;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
 }
 
 a {
@@ -13,15 +14,6 @@ a {
 a:hover {
   color: #3291e6;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Quicksand", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -75,10 +67,10 @@ h6 {
 #header {
   background: #fff;
   transition: all 0.5s;
-  /* z-index: 997; */
   padding: 15px 0;
-  /* top: 40px; */
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #header.header-scrolled {
@@ -92,7 +84,8 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #header .logo a {
@@ -101,7 +94,7 @@ h6 {
 
 #home {
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   background: url("../img/home.jpg") top center;
   background-size: auto;
 }
@@ -177,16 +170,47 @@ h6 {
   border-color: #1977cc;
 }
 
-/**
-* Mobile Navigation 
-*/
-.mobile-nav-toggle {
+/* * Mobile Navigation  */
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
   color: #2c4964;
-  font-size: 28px;
-  cursor: pointer;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
   display: none;
-  line-height: 0;
-  transition: 0.5s;
+  padding: 4px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 92;
+  background: #54afff37;
+  color: #2c4964;
+  list-style: none;
+}
+
+.showMenu {
+  transform: translateY(0);
 }
 
 /* Sections  */
@@ -232,45 +256,21 @@ section {
   background: #1977cc;
 }
 
-/* hamburger */
-
-.menuItem {
-  display: block;
-  margin: 2rem 4rem;
-  font-size: 1.8rem;
+/* section about us */
+#about h2 {
   color: #2c4964;
-  text-decoration: none;
+  margin-bottom: 2rem;
 }
 
-.menuItem:hover {
-  text-decoration: underline;
+#about p {
+  font-size: 18px;
 }
 
-.hamburger {
-  display: none;
-  padding: 4px;
-  border: black solid 1px;
-  background: white;
-  cursor: pointer;
+.p-about2 {
+  margin-top: 1rem;
 }
+/* section about us */
 
-.closeIcon {
-  display: none;
-}
+/* Services section */
 
-.menu {
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 92;
-  background: #54afff37;
-  color: #2c4964;
-  list-style: none;
-}
-
-.showMenu {
-  transform: translateY(0);
-}
+/* Services section */
