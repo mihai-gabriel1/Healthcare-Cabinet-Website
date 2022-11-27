@@ -116,7 +116,6 @@ p {
 * Appointment Button *
 */
 .appointment-btn {
-  margin-left: 25px;
   background: #1977cc;
   color: #fff !important;
   border-radius: 50px;
@@ -331,7 +330,7 @@ section {
 
 #team {
   background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(white, #c0e3ff);
+  background-image: linear-gradient(#c0e3ff, white);
 }
 
 .drali,
