@@ -272,6 +272,27 @@ section {
   background: #1977cc;
 }
 
+/* about us section */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clinic-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.clinic-pic {
+  height: 500px;
+  width: 460px;
+}
+
 /* Services section */
 #services-wrapper {
   flex-wrap: wrap;
@@ -288,8 +309,9 @@ section {
   border-radius: 7px;
 }
 
-.services-h1,
-.team-h1 {
+.services-h2,
+.team-h1,
+.about-h2 {
   color: #1977cc;
 }
 
@@ -320,6 +342,15 @@ section {
   height: 390px;
 }
 
-/* section about us */
+/* footer */
 
-/* ADAUGA BORDER BOTTOMS MISTO LA HEADINGS, CAUTA MODELE */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.form {
+  margin-top: -1.5rem;
+}
