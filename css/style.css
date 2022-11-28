@@ -96,18 +96,14 @@ p {
 }
 
 #home {
-  height: 95vh !important;
+  height: 75vh;
   width: 100%;
-  background: url(../img/lungs.jpg) top center;
+  background: url(../img/mainheader-logo.webp) center;
   background-size: cover;
 }
 
-#home {
-  height: 100vh;
-}
-
 .header-h1 {
-  color: #ffffff !important;
+  color: #00223d !important;
   margin-top: 5rem;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -342,6 +338,11 @@ section {
 }
 
 /* footer */
+
+.footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.253);
+  padding-top: 1rem;
+}
 
 #contact-form {
   display: flex;
