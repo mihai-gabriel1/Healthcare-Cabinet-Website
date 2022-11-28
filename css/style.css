@@ -283,7 +283,7 @@ section {
   flex-wrap: wrap;
   gap: 3rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .clinic-pic {
@@ -297,7 +297,7 @@ section {
   flex-wrap: wrap;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 4rem;
 }
 
@@ -329,8 +329,7 @@ section {
 /* section team  */
 
 #team {
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#c0e3ff, white);
+  background-image: linear-gradient(#ebfeff83, white);
 }
 
 .drali,
@@ -345,29 +344,23 @@ section {
   max-height: 380px;
 }
 
-/* footer */
+/* Testimonials section */
 
-.footer {
-  border-top: 1px solid rgba(128, 128, 128, 0.253);
-  padding-top: 1rem;
-}
-
-#contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.form {
-  margin-top: -1.5rem;
-}
-
-input[type="text"] {
-  border: 2px solid;
-  border-radius: 4px;
+.testimonials {
+  padding-top: 0;
+  background-color: #c0e3ff1f !important;
 }
 
 .card {
-  border-radius: 0.7rem;
+  background-color: #b9d9f4 !important;
+}
+
+/* footer */
+
+footer {
+  /* border-top: 1px solid rgba(128, 128, 128, 0.253); */
+  margin-top: 1rem;
+  padding-top: 2rem;
+  background-color: #001148;
+  color: #fff !important ;
 }

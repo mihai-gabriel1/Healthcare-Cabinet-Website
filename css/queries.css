@@ -25,3 +25,19 @@
     text-align: center !important;
   }
 }
+
+@media (max-width: 500px) {
+  #appointment-button {
+    margin-left: -4rem !important;
+  }
+  footer,
+  #services-wrapper {
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .fbfb {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+}
