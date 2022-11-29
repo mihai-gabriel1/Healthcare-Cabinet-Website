@@ -77,7 +77,7 @@
           </ul>
           <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
           <a
-            href="#appointment-btn"
+            href="#footer"
             id="appointment-button"
             class="appointment-btn scrollto"
             ><span class="d-none d-md-inline"></span>Fă o programare la noi</a
@@ -85,11 +85,20 @@
         </nav>
 
         <ul class="menu">
-          <li><a class="menuItem" href="#">Acasă </a></li>
+          <li><a class="menuItem" href="index.html">Acasă </a></li>
           <li><a class="menuItem" href="#">Despre </a></li>
           <li><a class="menuItem" href="#">Servicii </a></li>
-          <li><a class="menuItem" href="#">Echipa </a></li>
-          <li><a class="menuItem" href="#">Contact </a></li>
+          <li><a class="menuItem" href="#team">Echipa </a></li>
+          <li>
+            <a
+              class="menuItem"
+              href="https://vindecareprinterapiatheta.ro/"
+              target="_blank"
+              >Terapie Theta
+            </a>
+          </li>
+          <li><a class="menuItem" href="#">Intrebari frecvente </a></li>
+          <li><a class="menuItem" href="#footer">Contact </a></li>
         </ul>
         <button class="hamburger">
           <i class="menuIcon material-icons">Meniu</i>
@@ -143,44 +152,44 @@
         <h2 class="services-h2 text-center mb-5">Serviciile noastre</h2>
         <div class="our-services" id="services-wrapper">
           <div class="service-container">
+            <p class="service">Consult medical</p>
             <img
               class="service-img"
               src="../img/services/consult.jpeg"
               alt=""
             />
-            <p class="service">Consult medical</p>
           </div>
           <div class="service-container">
+            <p class="service">Fișă auto</p>
             <img
               class="service-img"
               src="../img/services/fisa-auto.jpeg"
               alt=""
             />
-            <p class="service">Fișă auto</p>
           </div>
           <div class="service-container">
+            <p class="service">Pulsoximetrie</p>
             <img
               class="service-img"
               src="../img/services/pulsoximetrie.jpeg"
               alt=""
             />
-            <p class="service">Pulsoximetrie</p>
           </div>
           <div class="service-container">
-            <img class="service-img" src="../img/services/apnee.webp" alt="" />
             <p class="service">Consult apnee</p>
+            <img class="service-img" src="../img/services/apnee.webp" alt="" />
           </div>
           <div class="service-container">
+            <p class="service">Spirometrie</p>
             <img
               class="service-img"
               src="../img/services/spirometrie.jpeg"
               alt=""
             />
-            <p class="service">Spirometrie</p>
           </div>
           <div class="service-container">
-            <img class="service-img" src="../img/services/masaj.jpeg" alt="" />
             <p class="service">Masaj terapeutic</p>
+            <img class="service-img" src="../img/services/masaj.jpeg" alt="" />
           </div>
         </div>
       </div>
@@ -200,8 +209,9 @@
           </div>
           <div class="col-md">
             <h3 class="drali-h2 mt-4">Dr. Ali Cranta</h3>
-            <p>Medic Primar</p>
-            <p>Fondator clinică</p>
+            <p class="dr-title">
+              <em>Medic Primar Pneumolog | Fondator clinică</em>
+            </p>
             <p>
               Dr. Cranta Ali este medic primar pneumolog care a terminat
               universitatea în anul 1997, urmând că apoi să își continue
@@ -221,12 +231,38 @@
           </div>
           <div class="col-md">
             <h3 class="drali-h2 mt-4">Dr. Brânzei Speranța Maria</h3>
-            <p>Medic Primar</p>
+            <p class="dr-title"><em>Medic Primar Pneumolog</em></p>
             <p>
               Doamna Dr. Brânzei Speranța este medic primar pneumolog care
               iubește ceea ce face, tratând sute de pacienți în anii de
               profesie. Doamna Doctor Brânzei are o experiență vasta și este
               gata să vă trateze indiferent de afecțiune.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row dr2 mt-5">
+          <div class="col-md">
+            <img
+              class="drbranzei rounded img-fluid doctor mx-auto d-block"
+              src="img/team/popescu.webp"
+              alt="a picture of dr Ali"
+            />
+          </div>
+          <div class="col-md">
+            <h3 class="drali-h2 mt-4">Popescu Cornelia</h3>
+            <p class="dr-title">
+              <em>Terapeut in domeniul terapiilor complementare</em>
+            </p>
+            <p>
+              Doamna Cornelia Popescu este un terapeut cu experiență în terapia
+              cu biocâmp Theta Healing, cu numeroase certificări în domeniu.
+            </p>
+            <p>
+              Descoperiți mai multe despre terapia Theta accesând următorul link
+              -
+              <a href="https://vindecareprinterapiatheta.ro/">Theta Healing</a>
             </p>
           </div>
         </div>
@@ -241,9 +277,9 @@
       <div class="container py-5">
         <div class="row d-flex justify-content-center">
           <div class="col-md-10 col-xl-8 text-center">
-            <h3 class="fw-bold mb-4">Testimoniale</h3>
+            <h3 class="fw-bold mb-4 testimoniale-h3">Testimoniale</h3>
             <p class="pb-2 mb-md-5 pb-md-0">
-              Ce spun clienții noștri despre serviciile oferite de Ali Crântă
+              Ce spun clienții noștri despre serviciile oferite de Ali Cranta
             </p>
           </div>
         </div>
@@ -316,9 +352,9 @@
                   </li>
                 </ul>
                 <p class="mb-2">
-                  <i class="fas fa-quote-left pe-2"></i>Autem, totam debitis
-                  suscipit saepe sapiente magnam officiis quaerat necessitatibus
-                  odio assumenda perferendis labore laboriosam.
+                  <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit
+                  amet, consectetur adipisicing elit. Quod eos id officiis hic
+                  tenetur quae quaerat ad velit ab hic tenetur.
                 </p>
               </div>
             </div>
@@ -353,9 +389,9 @@
                   </li>
                 </ul>
                 <p class="mb-2">
-                  <i class="fas fa-quote-left pe-2"></i>Cras sit amet nibh
-                  libero, in gravida nulla metus scelerisque ante sollicitudin
-                  commodo cras purus odio, vestibulum in tempus viverra turpis.
+                  <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit
+                  amet, consectetur adipisicing elit. Quod eos id officiis hic
+                  tenetur quae quaerat ad velit ab hic tenetur.
                 </p>
               </div>
             </div>
