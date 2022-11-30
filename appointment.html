@@ -112,26 +112,24 @@
     <!-- Contact form  -->
 
     <div id="container">
-      <!--This is a division tag for body container-->
       <div id="body_header">
-        <!--This is a division tag for body header-->
         <h1>Formular de programare online</h1>
-        <p>Suntem la doar un click distanță</p>
+        <p>Suntem la doar un click distanta</p>
       </div>
       <form action="https://formsubmit.co/mr.eu21@gmail.com" method="POST">
         <fieldset>
-          <legend><span class="number">1</span>Date de contact</legend>
-          <label for="name">Nume si Prenume:</label>
+          <legend><span class="number">1</span></legend>
+          <label for="name">Nume:</label>
           <input
             type="text"
             id="name"
             name="user_name"
-            placeholder="Ilie Andrei"
+            placeholder="Popa Popescu"
             required
             pattern="[a-zA-Z0-9]+"
           />
 
-          <label for="mail">Adresa de e-mail:</label>
+          <label for="mail">Adresa de email:</label>
           <input
             type="email"
             id="mail"
@@ -142,51 +140,39 @@
 
           <label for="tel">Numar de telefon:</label>
           <input
-            type="tel"
+            type="number"
             id="tel"
-            placeholder="+40745123456"
+            placeholder="+40712545676"
+            value=""
             name="user_num"
           />
         </fieldset>
 
         <fieldset>
-          <legend>
-            <span class="number">2</span>Detalii despre programare
-          </legend>
+          <legend><span class="number">2</span>Detalii programare</legend>
           <label for="appointment_for">Programare pentru:</label>
           <select id="appointment_for" name="appointment_for" required>
-            <option value="coffee">Pneumologie</option>
-            <option value="meeting">Terapie Theta</option>
+            <option value="Dr_Ali">Dr. Ali Cranta</option>
+            <option value="Dr_Branzei_Speranta">
+              Dr. Branzei Speranta Maria
+            </option>
+            <option value="Popescu_Cornelia">Popescu Cornelia</option>
           </select>
-          <label for="appointment_for" class="label-for mt-3"
-            >Selecteaza medic:</label
-          >
-          <select id="appointment_for" name="appointment_for" required>
-            <option value="dralif">Dr. Ali Cranta</option>
-            <option value="drbranzeif">Dr. Brânzei Speranța Maria</option>
-            <option value="popescuf">Cornelia Popescu</option>
-          </select>
-          <label for="appointment_description" class="description mt-3"
-            >Descrierea situatiei/simptome:</label
+          <label for="appointment_description" class="simptoms mt-3"
+            >Descriere simptome:</label
           >
           <textarea
             id="appointment_description"
             name="appointment_description"
-            placeholder="Eg: Am nevoie de o investigație pneumologică."
+            placeholder="Doresc o programare pentru un examen pneumologic."
           ></textarea>
           <label for="date">Data:</label>
           <input type="date" name="date" value="" required />
           <br />
           <label for="time">Interval orar:</label>
           <input type="time" name="time" value="" required />
-          <br />
         </fieldset>
-        <!--  -->
-
-        <!--  -->
-        <button type="submit" class="btn btn-lg btn-dark btn-block">
-          Submit Form
-        </button>
+        <button type="submit">Request For Appointment</button>
       </form>
     </div>
 
