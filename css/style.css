@@ -372,6 +372,7 @@ section {
 
 .card {
   background-color: #b9d9f4 !important;
+  min-height: 350px;
 }
 
 .testimonials h3 {
