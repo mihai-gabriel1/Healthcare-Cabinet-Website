@@ -334,10 +334,6 @@ section {
   color: #2c4964;
 }
 
-.drali-h2 {
-  font-family: "Raleway";
-}
-
 /* Services section */
 
 /* section team  */
@@ -360,7 +356,20 @@ section {
 
 .dr-title {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+#team p {
+  margin: 0;
+}
+
+.drali-h2 {
+  font-family: "Raleway";
+  margin-bottom: 0.5rem;
+}
+
+.dr-description {
+  margin-top: 0.4rem !important;
 }
 
 /* Testimonials section */
