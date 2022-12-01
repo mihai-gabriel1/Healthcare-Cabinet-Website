@@ -90,11 +90,11 @@
 
         <ul class="menu">
           <li><a class="menuItem" href="index.html">Acasă </a></li>
-          <li><a class="menuItem" href="#">Despre </a></li>
-          <li><a class="menuItem" href="#">Servicii </a></li>
-          <li><a class="menuItem" href="#team">Echipa </a></li>
+          <li><a class="menuItem" href="index.html">Despre </a></li>
+          <li><a class="menuItem" href="index.html">Servicii </a></li>
+          <li><a class="menuItem" href="index.html">Echipa </a></li>
           <li>
-            <a class="menuItem" href="#popescu" target="_blank"
+            <a class="menuItem" href="intex.html/#popescu" target="_blank"
               >Terapie Theta
             </a>
           </li>
@@ -117,6 +117,15 @@
         <p>Suntem la doar un click distanta</p>
       </div>
       <form action="https://formsubmit.co/mr.eu21@gmail.com" method="POST">
+        <!-- Redirect to a thank you page after the appointment -->
+        <input
+          type="hidden"
+          name="_next"
+          value="https://formsubmit.co/form/submission/thanks.html"
+        />
+
+        <!-- Redirect to a thank you page after the appointment -->
+
         <fieldset>
           <legend><span class="number">1</span></legend>
           <label for="name">Nume:</label>
