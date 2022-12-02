@@ -113,3 +113,13 @@ label.light {
 form {
   max-width: 480px;
 }
+
+.message-us {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.submit-form {
+  font-size: 1.1rem;
+}
