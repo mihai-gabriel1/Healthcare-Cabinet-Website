@@ -1,0 +1,23 @@
+* {
+  font-family: "Ralleway", sans-serif;
+}
+
+.wrappertbc {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.wrappertbc h3 {
+  color: #00223d;
+}
+
+.tbc-h1,
+.tbc-h3 {
+  color: #1977cc;
+}
+
+.tbc-logo {
+  max-width: 100%;
+  height: 350px !important;
+}
