@@ -282,6 +282,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 1.2rem;
 }
 
 .clinic-photos {
@@ -325,7 +326,8 @@ section {
 .services-h2,
 .team-h1,
 .about-h2,
-.articles-h2 {
+.articles-h2,
+.h3-locations {
   color: #1977cc;
 }
 
@@ -333,6 +335,7 @@ section {
   margin-top: 0.6rem;
   font-size: 18px;
   color: #2c4964;
+  font-size: 1.2rem;
 }
 
 /* Services section */
@@ -396,4 +399,18 @@ footer {
   padding-top: 2rem;
   background-color: #001148;
   color: #fff !important ;
+}
+
+/*  Locations section */
+.locations-paras {
+  gap: 1rem;
+}
+
+.locations-paras {
+  font-family: Arial, "Ralleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+.location-span {
+  color: red;
 }
