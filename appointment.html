@@ -134,7 +134,10 @@
         <!-- Redirect to a thank you page after the appointment -->
 
         <fieldset>
-          <legend><span class="number">1</span></legend>
+          <legend>
+            <span class="number">2</span>
+            <p>Date de contact</p>
+          </legend>
           <label for="name">Nume:</label>
           <input
             type="text"
@@ -145,11 +148,22 @@
             pattern="[a-zA-Z0-9]+"
           />
 
+          <label for="surname">Prenume:</label>
+
+          <input
+            type="text"
+            id="surname"
+            name="Prenume&nbsp;pacient"
+            placeholder="Popa Popescu"
+            required
+            pattern="[a-zA-Z0-9]+"
+          />
+
           <label for="mail">Adresa de email:</label>
           <input
             type="email"
             id="mail"
-            name="Email&nbsp;pacient"
+            name="E-mail&nbsp;pacient"
             placeholder="abc@xyz.com"
             required
           />
@@ -165,7 +179,11 @@
         </fieldset>
 
         <fieldset>
-          <legend><span class="number">2</span>Detalii programare</legend>
+          <legend>
+            <span class="number">2</span>
+            <p>Detalii programare</p>
+          </legend>
+
           <label for="appointment_for">Programare pentru:</label>
           <select id="appointment_for" name="Programare&nbsp;pentru" required>
             <option value="Dr&nbsp;Ali&nbsp;Cranta">Dr. Ali Cranta</option>
