@@ -125,7 +125,11 @@
         method="POST"
       >
         <!-- Redirect to a thank you page after the appointment -->
-
+        <input
+          type="hidden"
+          name="_next"
+          value="https://alicrantamedicalcenter.com/thanks.html"
+        />
         <!-- Redirect to a thank you page after the appointment -->
 
         <fieldset>
@@ -134,7 +138,7 @@
           <input
             type="text"
             id="name"
-            name="Nume&nbsp;pacient:"
+            name="Nume&nbsp;pacient"
             placeholder="Popa Popescu"
             required
             pattern="[a-zA-Z0-9]+"
@@ -144,7 +148,7 @@
           <input
             type="email"
             id="mail"
-            name="Email&nbsp;pacient:"
+            name="Email&nbsp;pacient"
             placeholder="abc@xyz.com"
             required
           />
@@ -155,33 +159,33 @@
             id="tel"
             placeholder="+40712545676"
             value=""
-            name="Nr.tel&nbsp;pacient:"
+            name="Telefon&nbsp;pacient"
           />
         </fieldset>
 
         <fieldset>
           <legend><span class="number">2</span>Detalii programare</legend>
           <label for="appointment_for">Programare pentru:</label>
-          <select id="appointment_for" name="appointment_for" required>
-            <option value="Dr_Ali">Dr. Ali Cranta</option>
-            <option value="Dr_Branzei_Speranta">
+          <select id="appointment_for" name="Programare&nbsp;pentru" required>
+            <option value="Dr&nbsp;Ali&nbsp;Cranta">Dr. Ali Cranta</option>
+            <option value="Dr&nbsp;Branzei&nbsp;Speranta">
               Dr. Brânzei Speranța Maria
             </option>
-            <option value="Popescu_Cornelia">Popescu Cornelia</option>
+            <option value="Popescu&nbsp;Cornelia">Popescu Cornelia</option>
           </select>
           <label for="appointment_description" class="simptoms mt-3"
             >Descriere simptome:</label
           >
           <textarea
             id="appointment_description"
-            name="appointment_description"
+            name="Descriere&nbsp;simptome"
             placeholder="Doresc o programare pentru un examen pneumologic."
           ></textarea>
-          <label for="date">Data:</label>
-          <input type="date" name="date" value="" required />
+          <label for="date">Data&nbsp;programarii:</label>
+          <input type="date" name="Data" value="" required />
           <br />
           <label for="time">Interval orar:</label>
-          <input type="time" name="time" value="" required />
+          <input type="time" name="Interval&nbsp;orar" value="" required />
         </fieldset>
 
         <button type="submit" class="submit-form">Solicită o programare</button>
