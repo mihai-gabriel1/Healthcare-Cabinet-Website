@@ -123,3 +123,7 @@ form {
 .submit-form {
   font-size: 1.1rem;
 }
+
+.pacient-details {
+  display: flex;
+}
