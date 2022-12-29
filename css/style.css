@@ -414,3 +414,26 @@ footer {
 .location-span {
   color: red;
 }
+
+/* Carrers section */
+
+.careers-h1 {
+  color: #1977cc;
+}
+
+.careers-section {
+  padding: 1rem;
+  color: #00223d;
+}
+
+.careers-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.careers-email {
+  font-weight: bold;
+  color: #1977cc;
+}
