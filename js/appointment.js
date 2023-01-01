@@ -10,7 +10,9 @@ function checkDate(selectedDate) {
   // Compare the selected date to the current date
   if (selected < today) {
     // If the selected date is in the past, show an error message
-    alert("Please select a date in the future.");
+    alert(
+      "Te rugam sa selectezi o zi in concordanta cu programul de functionare al clinicii."
+    );
     // Reset the value of the date field
     document.getElementsByName("Data")[0].value = "";
   }
