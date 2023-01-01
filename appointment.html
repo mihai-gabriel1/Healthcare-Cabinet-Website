@@ -207,10 +207,22 @@
             placeholder="Doresc o programare pentru un examen pneumologic."
           ></textarea>
           <label for="date">Data&nbsp;programarii:</label>
-          <input type="date" name="Data" value="" required />
+          <input
+            type="date"
+            name="Data"
+            value=""
+            required
+            onchange="checkDate(this.value)"
+          />
           <br />
           <label for="time">Interval orar:</label>
-          <input type="time" name="Interval&nbsp;orar" value="" required />
+          <input
+            type="time"
+            name="Interval&nbsp;orar"
+            value=""
+            required
+            onchange="checkTime(this.value)"
+          />
         </fieldset>
 
         <button type="submit" class="submit-form">Solicită o programare</button>
