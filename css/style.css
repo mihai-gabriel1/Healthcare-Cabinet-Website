@@ -205,11 +205,18 @@ p {
 .hamburger {
   display: none;
   padding: 4px;
-  border: black solid 1px;
+  border-color: #c9fdff;
+  border-radius: 20%;
   margin-right: 5rem;
   background: #c0e3ff;
   color: #1977cc;
   cursor: pointer;
+  color: #001148;
+}
+
+.hamburger:hover {
+  border-color: #1c006e;
+  font-size: 1.1rem;
 }
 
 .closeIcon {
